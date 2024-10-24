@@ -104,6 +104,7 @@ body {
     background: #edeef0;
     margin-bottom: 10px;
     border-radius: 5px;
+    
   }
   
   h5 {
@@ -136,7 +137,6 @@ body {
       background-color:#2B2C2F ;
       box-shadow: 2px 2px 5px rgb(71, 4, 4);
       color: white;
-
       border-radius: 12px;
     }
   }
