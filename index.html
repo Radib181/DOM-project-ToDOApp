@@ -126,11 +126,11 @@
           }
           ${
             style === ""
-              ? "" // <span class="todo-controls"><i class="fa-solid fa-check ">Done</i>  </span>
+              ? "" 
               : '   <span class="todo-controls"><i class="fa-solid fa-check ">Done ✔ </i>  </span   '
           }</div><div>
           ${
-            style === "" //class="edit todo-controls" onclick="UpdateToDoItems(this)"
+            style === "" 
               ? '<i class=" edit todo-control fa-solid fa-trash" onclick="UpdateToDoItems(this)" > </i>'
               : ""
           }
@@ -240,6 +240,11 @@
           todoAlert.classList.add("toggleMe");
         }, 1000);
       }
+
+
+      <!-- Project End here  -->
+
+      
     </script>
   </body>
 </html>
