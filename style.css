@@ -133,6 +133,8 @@ body {
     to {
       opacity: 1;
       transform: translateY(0);
+      background-color:#2B2C2F ;
+      box-shadow: 2px 2px 5px rgb(94, 92, 92);
     }
   }
   
