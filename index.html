@@ -11,8 +11,8 @@
       crossorigin="anonymous"
       referrerpolicy="no-referrer"
     />
-    <link rel="stylesheet" href="style.css"/>
-    <link rel="stylesheet" href="main.css"/>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="main.css" />
   </head>
   <body class="bg-[#2B2C2F]">
     <div
@@ -32,7 +32,7 @@
           strokeWidth="{1.5}"
           stroke="currentColor"
           className=""
-          class="w-10 text-white ml-3 text-teal-500"
+          class="w-10 ml-3 text-teal-500"
         >
           <path
             strokeLinecap="round"
@@ -126,11 +126,11 @@
           }
           ${
             style === ""
-              ? "" 
+              ? ""
               : '   <span class="todo-controls"><i class="fa-solid fa-check ">Done ✔ </i>  </span   '
           }</div><div>
           ${
-            style === "" 
+            style === ""
               ? '<i class=" edit todo-control fa-solid fa-trash" onclick="UpdateToDoItems(this)" > </i>'
               : ""
           }
@@ -241,10 +241,7 @@
         }, 1000);
       }
 
-
       <!-- Project End here  -->
-
-      
     </script>
   </body>
 </html>
